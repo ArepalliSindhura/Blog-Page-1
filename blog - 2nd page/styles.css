@@ -1,0 +1,496 @@
+*{
+  box-sizing: border-box !important;
+}
+
+body{
+  margin: 0;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  position: relative;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.navbar{
+  padding-top: 1%;
+  padding-right: 10%;
+  padding-left: 10%;
+  z-index: 2;
+  color: white;
+}
+
+.navbar h3{
+  padding-left: 20%;
+  padding-right: 10%;
+}
+
+.Search{
+  display: flex;
+  opacity: 0.8;
+}
+
+.only-on-large-screen{
+  display: flex;
+  opacity: 0.8;
+}
+
+.subscribe{
+  padding-right: 30px;
+}
+.getStartedBtn{
+  background-color: #18B343;
+  color: white;
+}
+
+.navbar-toggler{
+  border-radius: 5px;
+  border-color: white;
+}
+
+.navbar-toggler-icon{
+  padding-top: 10%;
+  color: white;
+}
+
+.Search{
+  margin-top: 10px;
+}
+.fa-search{
+  margin-right: 10px;
+}
+hr{
+  height: 1px;
+  background-color: white;
+  z-index: 2;
+}
+
+.TopSection{
+  padding-left: 15%;
+  padding-right: 15%;
+  z-index: 2;
+  position: relative;
+}
+h1{
+  font-family: 'Merriweather', Bold;
+}
+.TopSection h1{
+  padding-top: 10%;
+  font-size: 4rem;
+  text-align: center;
+  z-index: 2;
+  color: white;
+}
+
+.TopSection h6{
+  padding-top: 90%;
+}
+
+.TopSection .fa-chevron-down{
+  margin-left: 47%;
+}
+
+.TextDivs {
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-bottom: 7%;
+}
+.TextDivs h1{
+  font-family: Merriweather;
+  font-weight: bold;
+}
+
+.TextDivs p{
+  width: 62%;
+  font-size: 1.2rem;
+  padding-bottom: 2%;
+}
+
+.CloudsDiv{
+  padding-top: 5%;
+  font-family: Merriweather;
+  background-color: #F7F6FF;
+  padding-left: 15%;
+}
+
+.CloudsDiv h1{
+  width: 65%;
+  line-height: 3rem;
+  padding-bottom: 20px;
+}
+
+.CloudsDiv img{
+  width: 90%;
+  height: 80%;
+}
+
+.Lifestyle .btn-sm{
+  background-color: #705FE5;
+  color: white;
+  border-radius: 7px;
+}
+
+.hrs{
+  width: 60%;
+  border: 0.4px solid #878787;
+}
+
+.MuthuRaju .card{
+  border: none;
+  margin-left: 20%;
+}
+
+.MuthuRaju img{
+  height: 95%;
+  width: 85%;
+}
+
+.MuthuRaju .btn-lg{
+  margin-top: 7%;
+  border-color: black;
+  background-color: white;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.MuthuRaju p{
+  color: #878787;
+}
+
+.CardsSection{
+  background-color: #F4F4F4;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.RelatedPosts{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+.CardsSection .card{
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 15rem;
+}
+
+.CardsSection .card .LifeStyle{
+  position: absolute;
+  background-color: #705FE5;
+  top: 15px;
+  right: 5px;
+}
+
+.CardsSection .card .Business{
+  position: absolute;
+  background-color: #53BD5A;
+  top: 15px;
+  right: 80px;
+}
+
+.CardsSection .card .Design{
+  position: absolute;
+  background-color: #E58D5F;
+  top: 15px;
+  right: 5px;
+}
+.btn-sm{
+  height: 30px;
+  color: white;
+  border-radius: 9px;
+}
+.CardsSection .card small{
+  opacity: 0.8;
+}
+
+.CardsSection .card-footer{
+  height: 70px;
+}
+.CardsSection .card-footer img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+.CardsSection .Dots .fa-ellipsis-h{
+  margin-left: 40%;
+}
+
+.Dots{
+  display: none;
+}
+.footerText{
+  display: flex;
+  flex-direction:column;
+  padding-left: 60px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.CommentsSection{
+  padding-left: 20%;
+}
+
+.CommentsSection .card{
+  padding-top: 3%;
+  max-width: 70%;
+  border-top: 1px solid #878787;
+  border-left: none;
+   border-right: none;
+   border-bottom: none;
+}
+
+.card2{
+  max-width: 60% !important;
+  margin-left: 10%;
+}
+
+.reply{
+  text-align: right;
+}
+.CommentsSection img{
+  width: 70%;
+  height: 70%;
+}
+
+.DateTime{
+  padding-top: 2%;
+  display: flex;
+  color: #878787;
+  padding-bottom: 2%;
+}
+
+.DateTime h6{
+  margin-right: 10%;
+}
+
+.CommentsSection p{
+  color: #878787;
+}
+
+.CardsSectionForMobile{
+  display: none;
+}
+
+.CardsSectionForMobile h4{
+  margin-left: 15%;
+}
+.CardsSectionForMobile .card{
+  padding-top: 3%;
+  width: 80%;
+}
+
+.CardsSectionForMobile img{
+  width: 20%;
+  height: 20%;
+}
+
+.CardsSectionForMobile .card-title{
+  font-size: 3.5rem;
+}
+
+.CardsSectionForMobile .DateTime h6{
+  font-size: 2rem;
+}
+.CardsSectionForMobile .reply{
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.CardsSectionForMobile p{
+  font-size: 2.5rem;
+}
+
+.CardsSectionForMobile h3{
+  font-weight: 3.5rem;
+}
+
+.CardsSectionForMobile .card{
+  margin-left: 15%;
+  border-top: 1px solid #878787;
+  border-left: none;
+   border-right: none;
+   border-bottom: none;
+}
+
+
+.AddCommentForm{
+  padding-top: 3%;
+  margin-left: 25%;
+  padding-bottom: 10%;
+}
+
+textarea{
+  border-radius: 20px;
+}
+
+input{
+  width: 65%;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.AddCommentForm .btn-lg{
+  margin-top: 7%;
+  background-color: black;
+  color: white;
+}
+
+.footer{
+  background-color: #F4F4F4;
+  color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer h5{
+  font-weight: bold;
+}
+
+.left{
+  display: flex;
+}
+
+.fa-chevron-left{
+  padding-top: 2%;
+  margin-right: 6%;
+}
+
+.right{
+  display: flex;
+}
+
+.fa-chevron-right{
+  padding-top: 2%;
+  margin-left: 6%;
+}
+
+@media (max-width : 1028px) {
+  .only-on-large-screen{
+    display: none;
+  }
+}
+
+@media (max-width : 1000px) {
+
+  .header{
+    height: 800px;
+  }
+
+  .navbar h3{
+    margin-left: -60%;
+  }
+
+  .TextDivs {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 7%;
+  }
+
+  .TextDivs h1{
+    font-size: 4.5rem;
+  }
+
+  .TextDivs p{
+    width: 90%;
+    font-size: 2.7rem;
+    padding-bottom: 2%;
+  }
+
+  .CloudsDiv{
+    padding-bottom: 10%;
+  }
+
+  .CloudsDiv h1{
+    width: 85%;
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .CloudsDiv h4{
+    font-size: 3rem;
+  }
+
+  .Lifestyle .btn-sm{
+    width: 100px;
+    height: 40px;
+  }
+
+.CardsSection .card{
+    width: 95%;
+    margin-top: 20px;
+  }
+
+.CardsSection .card small{
+    font-size: 1.5rem;
+  }
+
+.CardsSection .card h5{
+    font-size: 3.5rem;
+  }
+
+.CardsSection .card-body{
+  padding: 20px 90px;
+}
+
+.CardsSection .card-footer{
+  height: 150px;
+  padding-left: 20%;
+}
+
+
+.CardsSection .card-footer img{
+  margin-top: 20px;
+}
+
+  .CardsSection .card .card-img-top{
+    width: 100%;
+  }
+
+  .TopSection{
+    padding-top: 5%;
+  }
+
+  .CardsSectionForMobile{
+    display : contents;
+  }
+
+  .CommentsSection{
+    display: none;
+  }
+
+  .AddCommentForm{
+    margin-left: 18%;
+  }
+
+  textarea{
+    border-radius: 5px;
+    border-width: 2px;
+  }
+
+  input{
+    width: 80%;
+    border-radius: 5px;
+  }
+
+  .TopSectionSmallText h6{
+    margin-top: 80%;
+  }
+
+  .MuthuRaju img{
+    width: 100%;
+  }
+
+  .Dots{
+    display: contents;
+  }
+}
